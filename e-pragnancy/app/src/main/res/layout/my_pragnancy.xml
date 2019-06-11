@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_liczba_dni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/roundedbutton"
+        android:text="liczba dni" />
+
+    <Button
+        android:id="@+id/dodaj_zdjecie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_liczba_dni"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/button_liczba_dni"
+        android:background="@drawable/roundedbutton"
+        android:text="dodaj zdjęcie" />
+
+    <Button
+        android:id="@+id/moja_waga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dodaj_zdjecie"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="130dp"
+        android:layout_toLeftOf="@id/dodaj_zdjecie"
+        android:background="@drawable/roundedbutton"
+        android:text="moja waga" />
+
+    <Button
+        android:id="@+id/telefony"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/moja_waga"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@id/moja_waga"
+        android:background="@drawable/roundedbutton"
+        android:text="Ważne telefony" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/różowy"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/my_pragnancy" />
+
+        <TextView
+            android:id="@+id/txtMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="17sp" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">e-pregnancy</string>
+    <string name="stwórz_wydarzenie">Stwórz wydarzenie</string>
+    <string name="tutorial_by">e-pragnancy</string>
+    <string name="first_fragment">Wymagane konto Google</string>
+    <string name="second_fragment">Moja ciąża</string>
+    <string name="third_fragment">Wskazówki</string>
+    <string name="wazne_numery">Ważne numery</string>
+    <string name="wpisz_numer">Numer telefonu</string>
+    <string name="wpisz_imie">Nazwa kontaktu</string>
+    <string name="wpisz_wage">Wpisz wagę</string>
+    <string name="tekst_waga">Dzisiejsza waga</string>
+    <string name="upload">Wybierz lub zrób zdjęcie</string>
+
+
+
+    <string name="zapisz">Zapisz</string>
+
+</resources>
