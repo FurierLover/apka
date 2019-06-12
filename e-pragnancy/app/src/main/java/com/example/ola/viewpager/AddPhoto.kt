@@ -30,7 +30,7 @@ class AddPhoto: Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?):
             View? {
 
-        val view = inflater.inflate(R.layout.dodaj_zdjecie, container, false)
+        val view = inflater.inflate(R.layout.add_photo, container, false)
 
         val uploadBtn = view.findViewById<View>(R.id.btn_upload) as Button
         val imageview =view.findViewById<View>(R.id.iv) as ImageView

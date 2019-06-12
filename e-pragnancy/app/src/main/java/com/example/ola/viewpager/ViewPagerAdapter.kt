@@ -14,7 +14,6 @@ class ViewPagerAdapter internal constructor(fm: FragmentManager) : FragmentPager
             0 -> fragment = Kalendarz()
             1 -> fragment = MojaCiaza()
             2 -> fragment = Wskazowki()
-            3 -> fragment = MyFragment()
             4 -> fragment = WazneNumery()
 
         }
